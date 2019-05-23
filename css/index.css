@@ -1,0 +1,108 @@
+.beta {
+    font-size: 0.5em;
+    transform: rotate(-10deg);
+    display: inline-block;
+}
+
+.head-title {
+    font-size: 4em;
+}
+.head-subtitle {
+    color: #888;
+    font-size: 1.2em;
+}
+
+.popular-keywords {
+    text-align: center;
+    margin-top: -0.5em;
+    opacity: 0.8;
+    margin-bottom: 0.5em;
+}
+.popular-keywords a {
+    margin-left: 0.5em;
+}
+
+
+.search {
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+.search-result-sub-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+
+table th {
+    text-align: center;
+}
+
+table td.pubDate {
+    min-width: 7em;
+}
+
+table td.popularity {
+    min-width: 4em;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.resources .guid {
+    min-width: 6em;
+    text-align: center;
+}
+.resources .link {
+    min-width: 6em;
+    text-align: center;
+}
+.resources .source {
+    min-width: 5em;
+    text-align: center;
+}
+
+.footer div>span {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.favicon-dmhy:before {
+    content: url('../img/favicon-dmhy.png') " ";
+}
+.favicon-popgo:before {
+    content: url('../img/favicon-popgo.png') " ";
+}
+
+
+/** desc.php 页面的样式 */
+.desc {
+    margin-top: 1%;
+}
+.desc .content {
+    background-color: #eef;
+    border: 1px solid #ececec;
+}
+
+.files table td {
+    padding-right: 1em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    font-size: 14px;
+}
+.files .tip {
+    font-weight: bold;
+    margin-top: 0.5em;
+}
+.files .tip strong {
+    color: #78f;
+    padding: 0 0.25em;
+}
+
+/** popularkw.php 页面的样式 **/
+table.popular-kw-list {
+    width: auto;
+    margin: 0 auto;
+}
+table.popular-kw-list td {
+    text-align: center;
+}
